@@ -1,0 +1,27 @@
+Compatibility:
+- make it compile in MSVC
+- 64-bit compatibility
+- Mac OS X
+
+Program:
+- massive refactoring needed
+- better UI (HUD) and controls
+- PNG/JPEG output, video output
+- rendering from saved keyframes (+ interpolation)
+- smoother controls (glRect stalls the program)
+- animation (automatic parameter changing)
+
+Shader:
+- more render modes and effects (fisheye, stereoscopic, motion blur, DOF, HDR + tone mapping, hypnoglow)
+- output z-buffer data for 3D monitors
+- progressive refinement: cone stepping instead of raymarching
+- split the fragment shader (raymarching, shading+coloring, distance function and surface color computation)
+- distance cache (k-D tree or octree)
+- eye candy: light positioning, smooth shadows
+
+More shader types:
+- Mandelbulb
+- Mandelbox julia
+- kaleidoscopic IFS
+- basic 3D fractals (Menger sponge) and transformations (rotate, fold)
+- hybrids with independent iterations
