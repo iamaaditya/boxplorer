@@ -1,0 +1,1 @@
+Worlds are defined by GLSL programs that map XYZ coordinates to the distance to the nearest surface. Design your own worlds, modify parameters in realtime and render hires videos of your recorded journey.
